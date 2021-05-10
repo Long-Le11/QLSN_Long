@@ -1,0 +1,31 @@
+.main input[type="text"]{
+border: 2px solid #3498db;
+text-align:center;
+
+color:#3C3B3B;
+width:200px;
+height: 50px;
+border-radius: 10px;
+
+outline: none;
+}
+.main input[type="text"]:focus{
+	
+	border-color:#2ecc71;
+}
+body{
+    background: url(hinhanh/bb.png) no-repeat;
+    margin: auto;
+    font-family: sans-serif;
+}
+.main input[type="submit"]{
+    padding : 10px 10px;
+    width:100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align:center;
+    border: 2px solid #3498db;
+}
+.main input[type="submit"]:hover{
+    background-color:#2ecc71;
+}

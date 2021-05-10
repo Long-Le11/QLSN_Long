@@ -1,0 +1,120 @@
+body
+{
+	
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	background:#34495e;
+	background: url(hinhanh/bb.png) no-repeat;
+}
+.loginbox h1{
+	color:#30336b;
+	font-weight:500;
+	cursor:pointer;
+	
+}
+.loginbox{
+	width:350px;
+	background:none;
+	position:absolute;
+	top:7%;
+	left:40%;
+	height:400px;
+	text-align:center;
+}
+.buscar-txt {
+	border:none;
+	background:none;
+	outline: none;
+	 
+}
+.loginbox input[type="text"], .loginbox input[type="password"]
+{
+	margin: 15px auto;
+	border: 2px solid #3498db;
+	text-align:center;
+	padding : 14px 10px;
+	color:#3C3B3B;
+	width:200px;
+	border-radius: 25px;
+	transition: 0.25s;
+}
+.loginbox input[type="text"]:focus, .loginbox input[type="password"]:focus{
+	width:250px;
+	border-color:#2ecc71;
+}
+.loginbox input[type="submit"]{
+	margin: 15px auto;
+	border: 2px solid #2ecc71;
+	text-align:center;
+	padding : 14px 10px;
+	background:none;
+	width:100px;
+	border-radius: 25px;
+	transition: 0.25s;
+	outline:none;
+	color:#3C3B3B;
+	cursor:pointer;
+}
+.loginbox input[type="submit"]:hover{
+	background: #2ecc71;
+}
+.loginbox input[type="submit"]:focus{
+	background:#29A75D;
+}
+.loginbox #help:hover{
+	text-decoration: underline;
+	color:#29A75D;
+}
+a{
+	font-size:10px;
+	color:#30336b;
+	text-decoration: none;
+	float:left;
+	padding-left:10px;
+}
+a :hover{
+	color:#A9D0F5;
+	display:block;
+}
+
+
+.btn{
+	display:inline-block;
+	width:15px;
+	height:22px;
+	background:#f1f1f1;
+	border-radius:30%;
+	margin-left:20px;
+	text-align:center;
+	box-shadow:0 5px 15px -5px black;
+	color:#3498db;
+	overflow:hidden;
+	position:relative;
+	transition:0.2s;
+	
+}
+.icon{
+	margin-left:20%;
+}
+.btn i{
+	line-height:22px;
+	margin-right:80%;
+}
+.btn:hover{
+transform:scale(1.2,1.2);
+color:black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
